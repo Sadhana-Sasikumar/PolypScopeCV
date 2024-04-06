@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Segmented Image</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #a4c3dc;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            height: 100vh;
+        }
+        h1 {
+            text-align: center;
+            margin-top: 20px;
+            color: #333;
+        }
+        img {
+            max-width: 100%;
+            max-height: 80vh; /* Adjust as needed */
+            margin-top: 20px; /* Adjust as needed */
+        }
+    </style>
+</head>
+<body>
+    <h1>Segmention For the Given Endoscopic Image</h1>
+    <h2>Input Image, Ground Truth, Predicted Image</h2>
+
+    <img src="{{ segmented_image }}" alt="Segmented Image">
+
+</body>
+</html>
